@@ -1,0 +1,59 @@
+<svg width="700" height="180" viewBox="0 0 700 180" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2e00fd"/>
+      <stop offset="100%" stop-color="#2313b4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Icon -->
+  <g transform="translate(30,30)">
+    <!-- Outer Circle -->
+    <circle cx="60" cy="60" r="50"
+            fill="none"
+            stroke="url(#grad)"
+            stroke-width="8"/>
+
+    <!-- Middle Circle -->
+    <circle cx="60" cy="60" r="30"
+            fill="none"
+            stroke="url(#grad)"
+            stroke-width="6"
+            opacity="0.8"/>
+
+    <!-- Center -->
+    <circle cx="60" cy="60" r="8"
+            fill="url(#grad)"/>
+
+    <!-- Upward Arrow -->
+    <path d="M42 78 L60 60 L78 42"
+          fill="none"
+          stroke="url(#grad)"
+          stroke-width="7"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+
+    <path d="M68 42 H78 V52"
+          fill="none"
+          stroke="url(#grad)"
+          stroke-width="7"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+  </g>
+
+  <!-- Text -->
+  <text x="150" y="90"
+        font-family="Inter, Segoe UI, Arial, sans-serif"
+        font-size="48"
+        font-weight="700"
+        fill="#1a1a1f">
+    Track<tspan fill="url(#grad)">Goal</tspan>
+  </text>
+
+  <text x="150" y="125"
+        font-family="Inter, Segoe UI, Arial, sans-serif"
+        font-size="30"
+        fill="#373738">
+    Track Progress • Achieve Goals
+  </text>
+</svg>
